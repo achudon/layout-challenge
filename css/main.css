@@ -23,7 +23,29 @@ body a:hover, body input:focus {
 main.container-fluid {
     background-image: url("../img/ricepaper_v3.png");
     opacity: 0.9;
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1em;
+    list-style-type: none;
+}
+
+nav a {
+    color: #55E;
+}
+
+nav a:hover {
+    color: #00E;
+    text-decoration: none;
 }
 
 h1, h2, h3 {
@@ -55,10 +77,11 @@ header {
     color: #FFFFFF;
 }
 
-header h3 {
+#motto{
     font-size: 120%;
     color: #EEEEEE;
     margin: 0;
+    display: none;
 }
 
 #info {
@@ -104,6 +127,20 @@ footer {
 
     main.container-fluid {
         margin: 20px 20px 20px 30%;
+    }
+
+    #motto {
+        display: inline;
+    }
+
+    header {
+        position: relative;
+    }
+
+    nav {
+        position: absolute;
+        right: 10px;
+        top: 10px;
     }
 }
 
