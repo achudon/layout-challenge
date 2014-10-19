@@ -16,8 +16,9 @@ body a{
     color: #0000AA;
 }
 
-body a:hover, body input:focus {
+body a:hover, body a:focus {
     color:#0000EE;
+    text-decoration: none;
 }
 
 main.container-fluid {
@@ -43,7 +44,7 @@ nav a {
     color: #55E;
 }
 
-nav a:hover {
+nav a:hover, nav a:focus{
     color: #00E;
     text-decoration: none;
 }
@@ -116,7 +117,6 @@ footer {
     border-top-color: #EC791F;
     font-size: 80%;
     text-align: right;
-    background-image: url("../img/background.jpg");
 }
 
 @media (min-width: 992px) {
